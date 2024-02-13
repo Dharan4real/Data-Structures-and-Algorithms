@@ -49,6 +49,9 @@ void main()
     enqueue(80);
     display();printf("\n");
     dequeue();
+    enqueue(90);
+    dequeue();
+    enqueue(10);
     dequeue();
     display();
 }
