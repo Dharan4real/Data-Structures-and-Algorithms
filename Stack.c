@@ -37,12 +37,16 @@ void display()
 
 int main()
 {
+    //this is the main method
     push(40);
     push(400);
     push(4);
     push(44);
+    pop();
     display();printf("\n");
+    push(0.4);
     pop();
     pop();
+    push(404);
     display();
 }
